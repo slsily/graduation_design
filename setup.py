@@ -1,0 +1,18 @@
+#!/usr/bin/env python
+# -*- coding: UTF-8 -*-
+"""
+@File    ：setup.py
+@Author  ：Keyu Chen
+@mail    : chenkeyu7777@gmail.com
+@Date    ：2023/10/4
+@source  ：This project is modified from <https://github.com/trust-ai/SafeBench>
+"""
+
+from setuptools import setup
+
+setup(name='frea',
+      packages=["frea"],
+      include_package_data=True,
+      version='1.0.0',
+      python_requires='>=3.11,<3.12',
+      install_requires=['gym==0.23.1', 'pygame==2.3.0'])
